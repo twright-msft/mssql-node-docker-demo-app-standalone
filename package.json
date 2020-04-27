@@ -1,0 +1,13 @@
+{
+  "name": "mssql-node-docker-demo-app-standalone",
+  "version": "1.0.1",
+  "description": "Node.js with SQL on Docker/Kubernetes demo application",
+  "author": "Travis Wright (twitter:radtravis)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

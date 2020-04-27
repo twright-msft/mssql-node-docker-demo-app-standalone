@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mssql-demo-app
+  labels:
+    app: demo-app
+spec:
+    containers:
+    - name: mssql-demo-app
+      image: twrightmsft/mssql-demo-6:latest
+      ports:
+      - containerPort: 8080
