@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
             type: "default",
             options: {  
                 userName: "sa", //change this
-                password: "Yukon900" //change this
+                password: "Seattle800" //change this
             }
         },
         server: 'sqldemo10-svc',  //change this
